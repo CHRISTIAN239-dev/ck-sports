@@ -1,6 +1,6 @@
 # CK SPORTS Website
 
-A progressive web app (PWA) for football news, fan chat, and predictions, with focus on Vancouver sports coverage.
+A progressive web app (PWA) for football news, fan chat, and predictions, with focus on sports coverage.
 
 ## Project Structure
 
