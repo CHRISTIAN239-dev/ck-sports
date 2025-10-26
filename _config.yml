@@ -1,0 +1,17 @@
+# Configuration for GitHub Pages deployment
+title: CK SPORTS
+description: Football news, fan chat, and predictions for Vancouver & beyond
+url: "" # Set this to your GitHub Pages URL when deploying
+baseurl: "/ck-sports" # The name of your repository
+
+# Build settings
+exclude:
+  - .github/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - simulate_api.py
+  - simulate_client.py
+  - run_sim_and_client.py
+  - __pycache__/

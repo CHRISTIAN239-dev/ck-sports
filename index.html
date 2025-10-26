@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CK SPORTS — Vancouver & World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ff6600">
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+  <h1 class="logo">CK SPORTS</h1>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <a href="#news">News</a>
+          <a href="#features">Features</a>
+          <a href="#contact">Contact</a>
+          <button id="login-btn" class="nav-btn">Login</button>
+          <button id="logout-btn" class="nav-btn" style="display:none">Logout</button>
+        </nav>
+      </div>
+      <div class="hero" style="background-image: url('https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?auto=format&fit=crop&w=1600&q=80')">
+        <div class="hero-content container">
+          <h2>Latest match reports, transfers and in-depth analysis</h2>
+          <p>Local Vancouver coverage and global football stories.</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <p style="margin-top:1rem;"><a href="/" class="home-btn">Return to Home</a></p>
+      <section id="news" class="section">
+        <h2 class="section-title">Top Stories</h2>
+
+        <article class="featured">
+          <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80" alt="Players celebrating" />
+          <div class="featured-body">
+            <h3>Vancouver United Secures Dramatic Win</h3>
+            <p>In a thrilling final-minute turnaround, Vancouver United edged out the rivals. We break down the key moments and tactics that changed the game.</p>
+            <a class="btn" href="#">Read more</a>
+          </div>
+        </article>
+
+        <div id="news-grid" class="grid" aria-live="polite">
+          <!-- Articles will be dynamically loaded from the backend API.
+               Static fallback content is included below for browsers without JS. -->
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=800&q=80" alt="Crowd cheering" />
+            <h4>Transfer Rumors: Midfielder Linked With Move</h4>
+            <p>Latest on the transfer market and what a potential deal would mean for squad depth.</p>
+            <a class="link" href="#">Full story</a>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1517926112629-8f1bfe5b3f78?auto=format&fit=crop&w=800&q=80" alt="Match action" />
+            <h4>Young Prospect Stars in Cup Match</h4>
+            <p>Scout report: a promising young player turns heads with a performance full of composure.</p>
+            <a class="link" href="#">Full story</a>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1505842465776-3d4d3e3e1d3e?auto=format&fit=crop&w=800&q=80" alt="Coach talking" />
+            <h4>Coach’s Corner: Strategy for the Season Ahead</h4>
+            <p>Inside the training ground: how the coaching staff plans to adapt this season.</p>
+            <a class="link" href="#">Full story</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <h2 class="section-title">Features & Analysis</h2>
+        <div class="features-row">
+          <div class="feature">
+            <h5>Data Dive: Expected Goals</h5>
+            <p>How xG reveals underlying performance beyond scores and standings.</p>
+            <a class="link" href="#">Explore</a>
+          </div>
+          <div class="feature">
+            <h5>Local Grassroots</h5>
+            <p>Community clubs shaping the next generation in Vancouver.</p>
+            <a class="link" href="#">Explore</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="fan-chat" class="section">
+        <h2 class="section-title">Fan Chat, Predictions & Analysis</h2>
+        <div class="chat-panel">
+          <div class="chat-messages" id="chat-messages" aria-live="polite">
+            <!-- messages loaded dynamically -->
+          </div>
+          <form id="chat-form" class="chat-form">
+            <input id="chat-author" type="text" placeholder="Your name" required />
+            <select id="chat-type" aria-label="Message type">
+              <option value="chat">Chat</option>
+              <option value="prediction">Prediction</option>
+              <option value="analysis">Analysis</option>
+            </select>
+            <textarea id="chat-content" rows="3" placeholder="Share your prediction or comment..." required></textarea>
+            <div class="chat-actions">
+              <button type="submit" class="btn">Send</button>
+              <button type="button" id="refresh-chat" class="btn">Refresh</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+  <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2025 FootyPulse — Football news for Vancouver & the world</p>
+        <div class="social">
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </footer>
+  <script src="script.js"></script>
+  </body>
+</html>

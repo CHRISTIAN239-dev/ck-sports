@@ -1,0 +1,22 @@
+{
+  "name": "CK SPORTS",
+  "short_name": "CKSports",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#111827",
+  "theme_color": "#ff6600",
+  "description": "CK SPORTS — local Vancouver football news, predictions and fan chat.",
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

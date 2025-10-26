@@ -1,0 +1,32 @@
+Unsplash image sources used in the demo site:
+
+
+1) Hero background (stadium)
+https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?auto=format&fit=crop&w=1600&q=80
+Photo by Markus Spiske on Unsplash
+
+2) Featured article (players celebrating)
+https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80
+Photo by Simon Lee on Unsplash
+
+3) Card image (crowd cheering)
+https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&w=800&q=80
+Photo by Joe G on Unsplash
+
+4) Card image (match action)
+https://images.unsplash.com/photo-1517926112629-8f1bfe5b3f78?auto=format&fit=crop&w=800&q=80
+Photo by Carl Attard on Unsplash
+
+5) Card image (coach talking / stadium)
+https://images.unsplash.com/photo-1505842465776-3d4d3e3e1d3e?auto=format&fit=crop&w=800&q=80
+Photo by Tim on Unsplash
+
+6) Cristiano Ronaldo (Wikimedia Commons)
+https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg
+Photo: Cristiano Ronaldo 2018 (Wikimedia Commons)
+
+7) Lionel Messi (Wikimedia Commons)
+https://upload.wikimedia.org/wikipedia/commons/c/c1/Lionel_Messi_20180626.jpg
+Photo: Lionel Messi 2018 (Wikimedia Commons)
+
+If you want local copies, I can download these to an `assets/` folder and update `index.html` to use the local paths.

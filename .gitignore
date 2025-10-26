@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Development
+data/app.db
+.env
+.vscode/
+
+# Simulator
+simulate_api.py
+simulate_client.py
+run_sim_and_client.py
+
+# Backups
+*.zip

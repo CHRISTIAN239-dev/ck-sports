@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login — FootyPulse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container" style="padding-top:4rem;">
+      <h2>Login to FootyPulse</h2>
+      <p>This demo uses a one-time passcode (OTP). For demonstration the OTP is shown in the response — replace this with an email/SMS provider in production.</p>
+
+      <section class="section">
+        <div class="feature" style="max-width:600px;">
+          <label for="contact">Email or Phone</label>
+          <input id="contact" type="text" placeholder="you@example.com or +1XXXXXXXXXX" style="width:100%;padding:.5rem;margin-top:.5rem;margin-bottom:1rem;" />
+          <button id="request-otp" class="btn">Request OTP</button>
+          <div id="request-result" style="margin-top:1rem;color:var(--muted)"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="feature" style="max-width:600px;">
+          <label for="otp">Enter OTP</label>
+          <input id="otp" type="text" placeholder="123456" style="width:100%;padding:.5rem;margin-top:.5rem;margin-bottom:1rem;" />
+          <button id="verify-otp" class="btn">Verify & Login</button>
+          <div id="verify-result" style="margin-top:1rem;color:var(--muted)"></div>
+        </div>
+      </section>
+
+      <p><a href="/" class="home-btn">Return to Home</a></p>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
